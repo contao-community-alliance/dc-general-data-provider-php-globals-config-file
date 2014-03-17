@@ -1,0 +1,42 @@
+{
+	"name":"contao-community-alliance/dc-general-data-provider-php-globals-config-file",
+	"description":"File data provider for contao-community-alliance/dc-general",
+	"keywords":["contao", "file", "data provider"],
+	"homepage":"http://c-c-a.org/",
+	"license":"LGPL-3.0+",
+	"authors": [
+		{
+			"name":"Christian Schiffler",
+			"email":"c.schiffler@cyberspectrum.de",
+			"homepage":"http://www.cyberspectrum.de",
+			"role":"Developer"
+		},
+		{
+			"name":"Tristan Lins",
+			"email":"tristan.lins@bit3.de",
+			"homepage":"http://bit3.de/",
+			"role":"Developer"
+		}
+	],
+	"support":{
+			"issues":"https://github.com/contao-community-alliance/dc-general-data-provider-php-globals-config-file/issues",
+			"wiki":"http://de.contaowiki.org/DC_General",
+			"irc":"irc://irc.freenode.org/contao.dev",
+			"source":"https://github.com/contao-community-alliance/dc-general-data-provider-php-globals-config-file"
+	},
+	"require": {
+		"php":">=5.3",
+		"contao-community-alliance/dc-general": "~2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"ContaoCommunityAlliance\\DcGeneral\\DataProvider": "src"
+		}
+	},
+	"extra":{
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	},
+	"minimum-stability": "dev"
+}
