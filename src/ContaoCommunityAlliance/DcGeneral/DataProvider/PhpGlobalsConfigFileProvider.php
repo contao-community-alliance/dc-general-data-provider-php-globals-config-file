@@ -92,7 +92,7 @@ class PhpGlobalsConfigFileProvider extends NoOpDataProvider
 			throw new DcGeneralRuntimeException("Missing file name.");
 		}
 
-		$this->fileName = realpath($config["source"]);
+		$this->fileName = $config["source"];
 
 		if (isset($config['namespace'])) {
 			$this->namespace = (string) $config['namespace'];
