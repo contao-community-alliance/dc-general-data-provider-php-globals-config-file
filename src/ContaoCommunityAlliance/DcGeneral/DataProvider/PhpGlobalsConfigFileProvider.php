@@ -146,7 +146,7 @@ class PhpGlobalsConfigFileProvider extends NoOpDataProvider
 	/**
 	 * {@inheritdoc}
 	 */
-	public function save(ModelInterface $model)
+	public function save(ModelInterface $model, $timestamp = 0)
 	{
 		$datetime = date('r');
 
