@@ -3,7 +3,7 @@
 	"description":"File data provider for contao-community-alliance/dc-general",
 	"keywords":["contao", "file", "data provider"],
 	"homepage":"http://c-c-a.org/",
-	"license":"LGPL-3.0+",
+	"license":"LGPL-3.0-or-later",
 	"authors": [
 		{
 			"name":"Christian Schiffler",
